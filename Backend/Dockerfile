@@ -1,5 +1,5 @@
 # means to build our image upon java:8 image from Docker Hub.
-FROM java:8
+FROM openjdk:8-jdk
 # We define that a volume named /tmp should exist
 VOLUME /tmp
 # We add a file from the local file system, naming it “app.jar.” The renaming isn't necessary, just an option available
